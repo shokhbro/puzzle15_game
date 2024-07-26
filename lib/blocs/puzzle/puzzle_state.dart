@@ -4,13 +4,13 @@ abstract class PuzzleState {
 }
 
 class InitialPuzziState extends PuzzleState {
-  InitialPuzziState(List<int> numbers) : super(numbers);
+  InitialPuzziState(super.numbers);
 }
 
 class ShuffledPuzzleState extends PuzzleState {
-  ShuffledPuzzleState(List<int> numbers) : super(numbers);
+  ShuffledPuzzleState(super.numbers);
 }
 
 class UpdatedPuzzleState extends PuzzleState {
-  UpdatedPuzzleState(List<int> numbers) : super(numbers);
+  UpdatedPuzzleState(super.numbers);
 }
